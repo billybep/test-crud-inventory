@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres!",
+    "database": "db_test_nutech",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
