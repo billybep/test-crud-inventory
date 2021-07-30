@@ -28,8 +28,6 @@ app.use(multer({storage: fileStorage, fileFilter: fileFilter}).single('imageUrl'
 app.use(router)
 
 app.use((err, req, res, next) => {
-  console.log(err,'zzzz>>>>>>>>>>>>>>>>>>>>>>')
-  console.log(err.name,'999999999999999999999999999999999');
   
   switch (err.name) {
     case 'SequelizeValidationError':
