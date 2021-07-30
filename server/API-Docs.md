@@ -133,7 +133,7 @@ Development : `http://localhost:3010/inventory`
 
   **Required:**
 
-  * **Product id** <br/>
+  * **Items id** <br/>
     `id = [integer]`
 
   * **Headers** <br/>
@@ -205,7 +205,7 @@ Development : `http://localhost:3010/inventory`
 
   **Required:**
 
-  * **Product id** <br/>
+  * **Item id** <br/>
     `id = [integer]`
 
   * **Headers** <br/>
